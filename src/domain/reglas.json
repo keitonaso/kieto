@@ -1,0 +1,19 @@
+{
+  "$comentario": "Reglas del motor de reparto. Cualquiera puede proponer cambios: cada número tiene su explicación en docs/reglas.md.",
+  "miniFondoMeses": 1,
+  "fondoMesesIngresoFijo": 3,
+  "fondoMesesIngresoVariable": 6,
+  "fondoMesesExtraPorDependiente": 1,
+  "fondoMesesMaximo": 9,
+  "tasaDeudaCara": 15,
+  "gustos": {
+    "porcentajeNormal": 0.2,
+    "porcentajeAjustado": 0.1
+  },
+  "etapas": {
+    "miniFondo": { "fondoEmergencia": 1 },
+    "deudaCara": { "deudaExtra": 0.8, "fondoEmergencia": 0.2 },
+    "fondoCompleto": { "fondoEmergencia": 0.6, "metas": 0.4 },
+    "metasEInversion": { "metasMaximo": 0.7 }
+  }
+}
